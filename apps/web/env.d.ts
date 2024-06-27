@@ -4,5 +4,5 @@
 interface CloudflareEnv {
   STORAGE: R2Bucket;
   DATABASE: D1Database;
-  DEV_IMAGES: R2Bucket;
+  DEV_IMAGES: KVNamespace;
 }

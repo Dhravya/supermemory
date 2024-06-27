@@ -1,4 +1,4 @@
-# [projectName]
+# Supermemory Extension
 
 > This project was bootstrapped using the Extension.js React-TypeScript template.
 
@@ -6,30 +6,30 @@
 
 In the project directory, you can run:
 
-### [projectPackageManager] dev
+### bun dev
 
 ```
 // Runs the app in the development mode.
 // Will open a new browser instance with your extension loaded.
 // The page will reload when you make changes.
-[projectPackageManager] dev
+bun dev
 ```
 
-### [projectPackageManager] start
+### bun start
 
 ```
 // Runs the app in the production mode.
 // Will open a new browser instance with your extension loaded.
 // This is how your browser extension will work once published.
-[projectPackageManager] start
+bun start
 ```
 
-### [projectPackageManager] build
+### bun build
 
 ```
 // Builds the app for production.
 // Bundles your browser extension in production mode for the target browser.
-[projectPackageManager] run build
+bun run build
 ```
 
 ## Learn More
