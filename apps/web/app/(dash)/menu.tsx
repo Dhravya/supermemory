@@ -5,10 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import {
 	MemoriesIcon,
-	ExploreIcon,
-	CanvasIcon,
 	AddIcon,
 	HomeIcon as HomeIconWeb,
+  CanvasIcon,
 } from "@repo/ui/icons";
 import { Button } from "@repo/ui/shadcn/button";
 import { MinusIcon, PlusCircleIcon } from "lucide-react";
@@ -24,12 +23,11 @@ import {
 import { Label } from "@repo/ui/shadcn/label";
 import { Textarea } from "@repo/ui/shadcn/textarea";
 import { toast } from "sonner";
-import { getSpaces } from "../actions/fetchers";
+import { getSpaces } from "@/app/actions/fetchers";
 import { HomeIcon } from "@heroicons/react/24/solid";
-import { createMemory, createSpace } from "../actions/doers";
+import { createMemory, createSpace } from "@/app/actions/doers";
 import ComboboxWithCreate from "@repo/ui/shadcn/combobox";
-import { StoredSpace } from "@/server/db/schema";
-import useMeasure from "react-use-measure";
+import type { StoredSpace } from "@/server/db/schema";
 import { useKeyPress } from "@/lib/useKeyPress";
 
 function Menu() {
